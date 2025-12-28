@@ -6,7 +6,6 @@
     "target": "ESNext",
     "lib": ["ESNext"],
     "module": "ESNext",
-    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "allowJs": true,
