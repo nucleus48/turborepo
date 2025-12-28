@@ -1,25 +1,22 @@
 import eslint from "@eslint/js";
-import prettierConfig from "eslint-config-prettier/flat";
-import turboConfig from "eslint-config-turbo/flat";
+import gitignore from "eslint-config-flat-gitignore";
+import prettierPlugin from "eslint-plugin-prettier/recommended";
 import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
 
-export function extendTs(dir) {
-  return {
-    languageOptions: {
-      parserOptions: {
-        projectService: true,
-        tsconfigRootDir: dir,
-      },
-    },
-  };
-}
-
 export default defineConfig(
-  globalIgnores(["scripts", "public", "*.js", "*.mjs", "*.cjs"]),
+  gitignore({ cwd: process.cwd() }),
+  globalIgnores(["eslint.config.mjs"]),
   eslint.configs.recommended,
   tseslint.configs.strictTypeChecked,
   tseslint.configs.stylisticTypeChecked,
-  turboConfig,
-  prettierConfig
+  prettierPlugin,
+  {
+    languageOptions: {
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: process.cwd(),
+      },
+    },
+  },
 );

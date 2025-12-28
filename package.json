@@ -1,16 +1,25 @@
 {
   "name": "turborepo",
   "private": true,
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@10.26.2",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "clean": "rm -fr node_modules && turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "turbo": "^2.5.8"
+    "eslint": "^9.39.2",
+    "prettier": "^3.7.4",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "turbo": "^2.7.2",
+    "typescript": "^5.9.2"
   },
-  "packageManager": "pnpm@10.17.1",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }

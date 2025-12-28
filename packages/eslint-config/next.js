@@ -1,11 +1,14 @@
-import nextPlugin from "@next/eslint-plugin-next";
+import nextVitals from "eslint-config-next/core-web-vitals";
+import nextTs from "eslint-config-next/typescript";
+import turboConfig from "eslint-config-turbo/flat";
+import reactCompiler from "eslint-plugin-react-compiler";
 import { defineConfig } from "eslint/config";
 import baseConfigs from "./base.js";
-import reactConfigs from "./react.js";
 
 export default defineConfig(
   baseConfigs,
-  reactConfigs,
-  nextPlugin.flatConfig.recommended,
-  nextPlugin.flatConfig.coreWebVitals,
+  turboConfig,
+  ...nextVitals,
+  ...nextTs,
+  reactCompiler.configs.recommended,
 );
