@@ -31,6 +31,14 @@ turborepo/
 
 ## Getting Started
 
+### Use as Template
+
+To create a new project based on this template:
+
+```bash
+pnpm dlx create-turbo@latest --example https://github.com/nucleus48/turborepo
+```
+
 ### Installation
 
 ```bash
