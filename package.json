@@ -9,7 +9,7 @@
     "lint": "turbo run lint",
     "check-types": "turbo run check-types",
     "clean": "rm -fr node_modules && turbo run clean",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"{apps,packages}/**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "@turbo/gen": "^2.8.7",
