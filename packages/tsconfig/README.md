@@ -14,7 +14,7 @@ This package provides a centralized location for TypeScript configurations, ensu
 
 ## Installation
 
-This package is designed for use within the monorepo and is marked as private. It's automatically available to workspace packages.
+This package is designed for use within the monorepo and is automatically available to workspace packages.
 
 ### For workspace packages:
 
@@ -69,7 +69,7 @@ The base configuration is optimized for modern development with the following ke
 
 ## License
 
-UNLICENSED - Private package for monorepo use only
+ISC
 
 ---
 

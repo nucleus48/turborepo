@@ -1,7 +1,6 @@
 {
   "name": "turborepo",
-  "private": true,
-  "license": "UNLICENSED",
+  "license": "ISC",
   "packageManager": "pnpm@10.26.2",
   "scripts": {
     "build": "turbo run build",

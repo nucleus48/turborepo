@@ -1,10 +1,8 @@
-# Turborepo Template
-
-A modern monorepo template powered by [Turborepo](https://turbo.build/repo), [pnpm](https://pnpm.io/), and [TypeScript](https://www.typescriptlang.org/).
+A modern monorepo powered by [Turborepo](https://turbo.build/repo), [pnpm](https://pnpm.io/), and [TypeScript](https://www.typescriptlang.org/).
 
 ## Overview
 
-This repository provides a production-ready monorepo structure with pre-configured tooling for building full-stack applications. It includes shared ESLint configurations for various frameworks and environments, enabling consistent code quality across all packages.
+This is a production-ready monorepo with pre-configured tooling for building full-stack applications. It includes shared ESLint configurations for various frameworks and environments, enabling consistent code quality across all packages.
 
 ## Project Structure
 
@@ -155,7 +153,7 @@ Global environment variables can be configured in `turbo.json` under `globalEnv`
 
 ## License
 
-UNLICENSED - Private repository
+ISC
 
 ---
 

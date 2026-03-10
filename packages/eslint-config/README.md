@@ -19,7 +19,7 @@ This package provides pre-configured ESLint setups using the new [flat config fo
 
 ## Installation
 
-This package is designed for use within the monorepo and is marked as private. It's automatically available to workspace packages.
+This package is designed for use within the monorepo and is automatically available to workspace packages.
 
 ### For workspace packages:
 
@@ -269,7 +269,7 @@ The configuration automatically uses `process.cwd()` to find your project's Type
 
 ## License
 
-UNLICENSED - Private package for monorepo use only
+ISC
 
 ---
 
