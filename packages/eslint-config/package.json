@@ -1,9 +1,11 @@
 {
   "name": "@repo/eslint-config",
   "version": "0.0.0",
+  "private": true,
+  "license": "ISC",
   "type": "module",
   "exports": {
-    "./base": "./base.js",
+    ".": "./base.js",
     "./next": "./next.js",
     "./nest": "./nest.js",
     "./expo": "./expo.js",

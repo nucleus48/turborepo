@@ -15,12 +15,12 @@ turborepo/
 
 ## Tech Stack
 
-- **Build System**: [Turborepo](https://turbo.build/repo) v2.7.2 - High-performance build system for JavaScript/TypeScript monorepos
+- **Build System**: [Turborepo](https://turbo.build/repo) v2.8.12 - High-performance build system for JavaScript/TypeScript monorepos
 - **Package Manager**: [pnpm](https://pnpm.io/) v10.26.2 - Fast, disk space efficient package manager
-- **Language**: [TypeScript](https://www.typescriptlang.org/) v5.9.2 - Typed JavaScript
+- **Language**: [TypeScript](https://www.typescriptlang.org/) v5.9.3 - Typed JavaScript
 - **Code Quality**:
   - ESLint v9.39.2 - Linting with flat config support
-  - Prettier v3.7.4 - Code formatting with import organization and Tailwind CSS support
+  - Prettier v3.8.1 - Code formatting with import organization and Tailwind CSS support
 
 ## Prerequisites
 
